@@ -1,0 +1,81 @@
+basebuilder rimworld modpack
+
+Mods Included:
+
+Name							Version			Link																Source Code Link
+UOMTextures						from UOM		?
+Community Core Library 			0.12.4			https://ludeon.com/forums/index.php?topic=16599.0					https://github.com/RimWorldCCLTeam/CommunityCoreLibrary/
+EdBModOrder						1.6.1			https://ludeon.com/forums/index.php?topic=7454.0					Included
+EdBInterface 					3.1.2 			https://ludeon.com/forums/index.php?topic=5258.0					Included
+EdBPrepareCarefully				1.10.1			https://ludeon.com/forums/index.php?topic=6261.0
+RW_EnhancedTabs-12d.5b			12d.5a			https://ludeon.com/forums/index.php?topic=15964.0					Included
+AutoEquip 						a12v013 		https://ludeon.com/forums/index.php?topic=16069.0					https://github.com/soulkata/rimworld
+LT_Infusion 					31b				https://ludeon.com/forums/index.php?topic=12783.0					https://github.com/soulkata/rimworld
+AutoEquipInfusion 				a12v013 		https://ludeon.com/forums/index.php?topic=16069.0					https://github.com/soulkata/rimworld
+EnviroSeeds_SK					?				https://ludeon.com/forums/index.php?topic=12934.0
+Pleasure_Seeds					?				https://ludeon.com/forums/index.php?topic=12934.0					N/A
+Vegetable Garden v3.2a ESeeds	3.2a			https://ludeon.com/forums/index.php?topic=12934.0					N/A
+Biodiversity					from UOM		https://ludeon.com/forums/index.php?topic=9532.msg145529#msg145529
+Miscellaneous_HiRes				1.12.7			https://ludeon.com/forums/index.php?topic=3612.0					https://ludeon.com/forums/index.php?topic=3612.0
+MAI								1.12.7			https://ludeon.com/forums/index.php?topic=3612.0					https://ludeon.com/forums/index.php?topic=3612.0
+BeanTekRefrigeratedFoodStorage	1.2				https://ludeon.com/forums/index.php?topic=12243.0
+Pawn State Icons				04c				https://ludeon.com/forums/index.php?topic=9163.0					Included
+RoofSupport						0.8.3			https://ludeon.com/forums/index.php?topic=7458.0					N/A
+AutoHuntBeacon					2.3.5641.16805	https://ludeon.com/forums/index.php?topic=8930.msg172964#msg172964
+Hospitality						1.08			https://ludeon.com/forums/index.php?topic=11444.0					Included
+Rimsenal						0.4				https://ludeon.com/forums/index.php?topic=11160.0					Included
+Rimsenal_Federation				0.4				https://ludeon.com/forums/index.php?topic=11160.0					N/A
+Rimsenal_hair					0.4				https://ludeon.com/forums/index.php?topic=11160.0					N/A
+Rimsenal_Security				0.4				https://ludeon.com/forums/index.php?topic=11160.0					N/A
+Rimsenal_Storyteller			0.4				https://ludeon.com/forums/index.php?topic=11160.0					N/A
+Better_Tribals					2.00			https://ludeon.com/forums/index.php?topic=14958.0					N/A
+Apparello						1.6.3			https://ludeon.com/forums/index.php?topic=5085.0					N/A
+MD2Base							23				https://ludeon.com/forums/index.php?topic=7380.0
+MD2Industry						23				https://ludeon.com/forums/index.php?topic=7380.0
+MD2Fortifications				23				https://ludeon.com/forums/index.php?topic=7380.0
+Glass&Lights					12b.0			https://ludeon.com/forums/index.php?topic=14870.0
+RW_MedicalInfo					A12d_1b			https://ludeon.com/forums/index.php?topic=16120.msg171785#msg171785	Included
+RW_Cats							12d.9c			https://ludeon.com/forums/index.php?topic=15457.0					Included
+EnhancedFireFight				1.2				https://ludeon.com/forums/index.php?topic=11988.0					Included
+Industrialization				A12				https://ludeon.com/forums/index.php?topic=8902.0					
+TurretCollection				A12				https://ludeon.com/forums/index.php?topic=6895.0
+ExpandedProsthetics&OrganEngineering 1.51		https://ludeon.com/forums/index.php?topic=10571.0					Included
+PowerSwitch						1.12.0			https://ludeon.com/forums/index.php?topic=2890.0					Included
+AdditionalJoyObjects			2.70			https://ludeon.com/forums/index.php?topic=13400#msg129437			N/A
+Caveworld flora					12.1			https://ludeon.com/forums/index.php?topic=13172.msg133446#msg133446 Same link
+RT_Fusebox						1.1.2			https://ludeon.com/forums/index.php?topic=11272.0					https://github.com/Ratysz/RTFusebox/releases/tag/v1.1.2
+Superior Crafting Redesigned	?				https://ludeon.com/forums/index.php?topic=11741.msg178474#msg178474	
+ED-Core							0.02.00			https://ludeon.com/forums/index.php?topic=15606						Included
+ED-Embrasures					0.02.00			https://ludeon.com/forums/index.php?topic=15606
+ED-PersonalAnimalShields		0.02.00			https://ludeon.com/forums/index.php?topic=15606
+ED-PersonalNanoShields			0.02.00			https://ludeon.com/forums/index.php?topic=15606
+ED-Plans_24H					0.02.00			https://ludeon.com/forums/index.php?topic=15606
+CTS								1.1				https://ludeon.com/forums/index.php?topic=14763.0
+
+
+Patches from UOM:
+Pawn State Icons:  	Used dll from Ultimate Overhaul Modpack
+Roof Support:  		Used xml file from Ultimate Overhaul Modpack
+CTS:				Used xml and dll from Ultimate Overhaul Modpack with coper wire requirement removed from Tesla Lightning Power station
+
+
+
+Original Patches:
+UOMTextures def files
+
+
+
+
+
+
+To do:
+UOMTextures			Need to add def files and rename textures so they will override existing textures
+Biodiversity		Need to build own version of dll that works, UOM version is throwing error on ramwool and buffalowool objects
+Pawn State icons	Need to build own version of dll for a12
+Power Switch		See if possible to update to remove the annoying battery warning when switches are off?
+Industrialization	Investigate config errors with shadow flag
+CTS					Investigate modifications to dll and xml from UOM
+
+
+Credit:  All credit goes to the original mod makers except for the original patches noted above.  If links are missing for a mod and you would like to claim it, please PM me.
+License: Creative Commons 4.0:  Attribution-NonCommercial, CC BY-NC -- https://creativecommons.org/licenses/by-nc/4.0/
