@@ -3,7 +3,6 @@ basebuilder rimworld modpack
 Mods Included:
 
 Name							Version			Link																Source Code Link
-UOMTextures						from UOM		?
 Community Core Library 			0.12.4			https://ludeon.com/forums/index.php?topic=16599.0					https://github.com/RimWorldCCLTeam/CommunityCoreLibrary/
 EdBModOrder						1.6.1			https://ludeon.com/forums/index.php?topic=7454.0					Included
 EdBInterface 					3.1.2 			https://ludeon.com/forums/index.php?topic=5258.0					Included
@@ -15,7 +14,7 @@ AutoEquipInfusion 				a12v013 		https://ludeon.com/forums/index.php?topic=16069.
 EnviroSeeds_SK					?				https://ludeon.com/forums/index.php?topic=12934.0
 Pleasure_Seeds					?				https://ludeon.com/forums/index.php?topic=12934.0					N/A
 Vegetable Garden v3.2a ESeeds	3.2a			https://ludeon.com/forums/index.php?topic=12934.0					N/A
-Biodiversity					from UOM		https://ludeon.com/forums/index.php?topic=9532.msg145529#msg145529
+Biodiversity					a11b patch		https://ludeon.com/forums/index.php?topic=9532.msg150027#msg150027
 Miscellaneous_HiRes				1.12.7			https://ludeon.com/forums/index.php?topic=3612.0					https://ludeon.com/forums/index.php?topic=3612.0
 MAI								1.12.7			https://ludeon.com/forums/index.php?topic=3612.0					https://ludeon.com/forums/index.php?topic=3612.0
 BeanTekRefrigeratedFoodStorage	1.2				https://ludeon.com/forums/index.php?topic=12243.0
@@ -57,20 +56,16 @@ Patches from UOM:
 Pawn State Icons:  	Used dll from Ultimate Overhaul Modpack
 Roof Support:  		Used xml file from Ultimate Overhaul Modpack
 CTS:				Used xml and dll from Ultimate Overhaul Modpack with coper wire requirement removed from Tesla Lightning Power station
-
+Biodiversity:		Used entire mod from Ultimate Overhaul Modpack
 
 
 Original Patches:
-UOMTextures def files
-
-
-
+Biodiversity Patch	Fixes dll and updates xml files to conform with alpha 12d.  Also, fixes missing ram wool object.
 
 
 
 To do:
-UOMTextures			Need to add def files and rename textures so they will override existing textures
-Biodiversity		Need to build own version of dll that works, UOM version is throwing error on ramwool and buffalowool objects
+Biodiversity		make ram wool object a little different from muffalo wool
 Pawn State icons	Need to build own version of dll for a12
 Power Switch		See if possible to update to remove the annoying battery warning when switches are off?
 Industrialization	Investigate config errors with shadow flag
