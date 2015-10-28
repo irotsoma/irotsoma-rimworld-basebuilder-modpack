@@ -44,33 +44,33 @@ AdditionalJoyObjects			2.70			https://ludeon.com/forums/index.php?topic=13400#ms
 Caveworld flora					12.1			https://ludeon.com/forums/index.php?topic=13172.msg133446#msg133446 Same link
 RT_Fusebox						1.1.2			https://ludeon.com/forums/index.php?topic=11272.0					https://github.com/Ratysz/RTFusebox/releases/tag/v1.1.2
 Superior Crafting Redesigned	?				https://ludeon.com/forums/index.php?topic=11741.msg178474#msg178474	
-ED-Core							0.02.00			https://ludeon.com/forums/index.php?topic=15606						Included
-ED-Embrasures					0.02.00			https://ludeon.com/forums/index.php?topic=15606
-ED-PersonalAnimalShields		0.02.00			https://ludeon.com/forums/index.php?topic=15606
-ED-PersonalNanoShields			0.02.00			https://ludeon.com/forums/index.php?topic=15606
-ED-Plans_24H					0.02.00			https://ludeon.com/forums/index.php?topic=15606
 CTS								1.1				https://ludeon.com/forums/index.php?topic=14763.0
+Extreme Temperature Shields		1.6				https://ludeon.com/forums/index.php?topic=14702.0					Included
+DefenseShield					1.3				https://ludeon.com/forums/index.php?topic=14135.0					Included
+Embrasures						1.2				https://ludeon.com/forums/index.php?topic=14135.0					Included
+PersonalShieldMKII				1.2				https://ludeon.com/forums/index.php?topic=14135.0					Included
+Clutter							0.5				https://ludeon.com/forums/index.php?topic=2541.0					Included
+AnimuHair						?				https://ludeon.com/forums/index.php?topic=6585.0					N/A
+
 
 
 Patches from UOM:
 Pawn State Icons:  	Used dll from Ultimate Overhaul Modpack
 Roof Support:  		Used xml file from Ultimate Overhaul Modpack
 CTS:				Used xml and dll from Ultimate Overhaul Modpack with coper wire requirement removed from Tesla Lightning Power station
-Biodiversity:		Used entire mod from Ultimate Overhaul Modpack
 
 
 Original Patches:
-Biodiversity Patch	Fixes dll and updates xml files to conform with alpha 12d.  Also, fixes missing ram wool object.
-
+Biodiversity Patch			Fixes dll and updates xml files to conform with alpha 12d.  Also, fixes missing ram wool object.
+Hospitality Patch			Fixes for dll for version 1.08
+Industrialization Patch		Fixes for shadow related errors and fixes for the coper ore coloring (I really didn't like that bright green).
 
 
 To do:
-Biodiversity		make ram wool object a little different from muffalo wool
 Pawn State icons	Need to build own version of dll for a12
 Power Switch		See if possible to update to remove the annoying battery warning when switches are off?
-Industrialization	Investigate config errors with shadow flag
 CTS					Investigate modifications to dll and xml from UOM
 
 
-Credit:  All credit goes to the original mod makers except for the original patches noted above.  If links are missing for a mod and you would like to claim it, please PM me.
+Credit:  All credit goes to the original mod makers except for the original patches noted above.  If links are missing or invalid for a mod and you would like to fix it, please PM me.
 License: Creative Commons 4.0:  Attribution-NonCommercial, CC BY-NC -- https://creativecommons.org/licenses/by-nc/4.0/
