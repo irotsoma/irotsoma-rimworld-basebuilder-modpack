@@ -55,21 +55,16 @@ AnimuHair						?				https://ludeon.com/forums/index.php?topic=6585.0					N/A
 
 
 Patches from UOM:
-Pawn State Icons:  	Used dll from Ultimate Overhaul Modpack
-Roof Support:  		Used xml file from Ultimate Overhaul Modpack
 CTS:				Used xml and dll from Ultimate Overhaul Modpack with coper wire requirement removed from Tesla Lightning Power station
 
 
 Original Patches:
-Biodiversity Patch			Fixes dll and updates xml files to conform with alpha 12d.  Also, fixes missing ram wool object.
-Hospitality Patch			Fixes for dll for version 1.08
+Biodiversity Patch		Fixes dll and updates xml files to conform with alpha 12d.  Also, fixes missing ram wool object.
+Hospitality Patch		Fixes for dll for version 1.08
 Industrialization Patch		Fixes for shadow related errors and fixes for the coper ore coloring (I really didn't like that bright green).
+Pawn State Icons:		Updated dll to work with alpha 12d
+Roof Support:			Updated xml file to work with alpha 12d
 
-
-To do:
-Pawn State icons	Need to build own version of dll for a12
-Power Switch		See if possible to update to remove the annoying battery warning when switches are off?
-CTS					Investigate modifications to dll and xml from UOM
 
 
 Credit:  All credit goes to the original mod makers except for the original patches noted above.  If links are missing or invalid for a mod and you would like to fix it, please PM me.
