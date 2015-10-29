@@ -13,17 +13,13 @@
     <li>Pawn State Icons</li>
     <li>CTS</li>
     <li>Industrialisation</li>
-    <li>ED-Core</li>
-    <li>ED-Embrasures</li>
-    <li>ED-PersonalNanoShields</li>
-    <li>ED-PersonalAnimalShields</li>
-    <li>ED-Plants_24H</li>
     <li>LT_Infusion</li>
     <li>AutoEquip</li>
     <li>AutoEquipInfusion</li>
     <li>EnviroSeeds_SK</li>
     <li>Pleasure_Seeds</li>
     <li>Vegetable Garden v3.2a ESeeds</li>
+    <li>GourmetGarden</li>
     <li>Biodiversity</li>
     <li>Miscellaneous_HiRes</li>
     <li>Better_Tribals</li>
@@ -45,9 +41,9 @@
     <li>EnhancedFireFight</li>
     <li>Additional Joy Objects V2.70</li>
     <li>RoofSupport</li>
-    <li>AutoHuntBeacon</li>
     <li>BeanTekRefrigeratedFoodStorage</li>
     <li>CaveworldFlora</li>
+    <li>AutoHuntBeacon</li>
     <li>Hospitality</li>
   </activeMods>
 </ModsConfigData>
