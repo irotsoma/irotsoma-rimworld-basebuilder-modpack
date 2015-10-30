@@ -1,2 +1,2 @@
-1. Install all mods on the mod list using the provided links.
-2. Unzip all files in the Archives directory to the Mods folder in your rimworld installation, overwriting all files.
+1. Install all mods on the mod list using the provided links.  Follow instructions given for installation of each.  Note that some mods are not simply unziped directly to the mod folder.
+2. Unzip all patch files in the Archives directory to the Mods folder in your rimworld installation, overwriting all files.
