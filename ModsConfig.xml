@@ -3,61 +3,103 @@
   <buildNumber>914</buildNumber>
   <activeMods>
     <li>Core</li>
-    <li>Community Core Library</li>
     <li>EdBModOrder</li>
+    <li>Community Core Library</li>
     <li>EdBInterface</li>
     <li>EdBPrepareCarefully</li>
     <li>Pawn State Icons</li>
     <li>RW_EnhancedTabs-12d.5b</li>
     <li>RW_MedicalInfo-A12d_1b</li>
     <li>Superior Crafting Redesigned</li>
+    <li>IR_DeclutterCategories</li>
+    <li>Core_IR_Category_Patch</li>
+    <li>Superior Crafting Redesigned_IR_Category_Patch</li>
     <li>Industrialisation</li>
+    <li>Industrialization_IR_Category_Patch</li>
     <li>Biodiversity</li>
+    <li>Biodiversity_IR_Category_Patch</li>
     <li>RW_Cats-12d.9c</li>
+    <li>RW_Cats_IR_Category_Patch</li>
     <li>ExpandedProsthetics&amp;OrganEngineering</li>
+    <li>ExpandedProsthetics&amp;OrganEngineering_IR_Category_Patch</li>
     <li>Rimsenal</li>
+    <li>Rimsenal_IR_Category_Patch</li>
     <li>Rimsenal_Federation</li>
-    <li>Rimsenal_hair</li>
+    <li>Rimsenal_Federation_IR_Category_Patch</li>
     <li>Rimsenal_Security</li>
+    <li>Rimsenal_Security_IR_Category_Patch</li>
+    <li>Rimsenal_hair</li>
     <li>Rimsenal_Storyteller</li>
     <li>MD2Base-12.0.1</li>
+    <li>MD2Base-12.0.1_IR_Category_Patch</li>
     <li>MD2Fortifications-12.0.0</li>
+    <li>MD2Fortifications-12.0.0_IR_Category_Patch</li>
     <li>MD2Industry-12.0.0</li>
+    <li>MD2Industry-12.0.0_IR_Category_Patch</li>
     <li>Glass&amp;Lights</li>
+    <li>Glass&amp;Lights_IR_Category_Patch</li>
+    <li>Superior_Crafting_&amp;_Glass&amp;Lights_IR_Incompatibilities_Patch</li>
     <li>EnviroSeeds_SK</li>
     <li>Pleasure_Seeds</li>
+    <li>Pleasure_Seeds_IR_Category_Patch</li>
     <li>Vegetable Garden v3.2a ESeeds</li>
+    <li>Vegetable Garden v3.2a ESeeds_IR_Category_Patch</li>
     <li>GourmetGarden</li>
+    <li>GourmetGarden_IR_Category_Patch</li>
+    <li>EnviroSeeds_SK_&amp;_Biodiversity_IR_Incompatibilities_Patch</li>
+    <li>Vegetable Garden v3.2a ESeeds_IR_Incompatibilities_Patch</li>
     <li>Apparello</li>
+    <li>Apparello_IR_Category_Patch</li>
     <li>Extreme Temperature Shields</li>
+    <li>Extreme Temperature Shields_IR_Category_Patch</li>
     <li>PersonalShieldMKII-PersonalShieldMKII1.2</li>
+    <li>PersonalShieldMKII_IR_Category_Patch</li>
     <li>Turret Collection</li>
-    <li>Embrasures-Embrasures1.2</li>
+    <li>Turret Collection_IR_Category_Patch</li>
     <li>Additional Joy Objects V2.70</li>
+    <li>Additional Joy Objects V2.70_IR_Category_Patch</li>
     <li>CTS</li>
     <li>DefenceShield-DefenceShield1.3</li>
+    <li>DefenceShield-DefenceShield1.3_IR_Category_Patch</li>
     <li>EnhancedFireFight</li>
+    <li>EnhancedFireFight_IR_Category_Patch</li>
     <li>Clutter</li>
+    <li>Clutter_IR_Category_Patch</li>
     <li>CaveworldFlora</li>
+    <li>CaveworldFlora_IR_Category_Patch</li>
     <li>BeanTekRefrigeratedFoodStorage</li>
+    <li>BeanTekRefrigeratedFoodStorage_IR_Category_Patch</li>
     <li>Better_Tribals</li>
     <li>MAI</li>
+    <li>MAI_IR_Category_Patch</li>
     <li>Miscellaneous_HiRes</li>
+    <li>Miscellaneous_HiRes_IR_Category_Patch</li>
     <li>PowerSwitch</li>
+    <li>PowerSwitch_IR_Category_Patch</li>
     <li>RoofSupport</li>
     <li>T-MoreFloors</li>
     <li>T-ExpandedCloth</li>
+    <li>T-MoreFloors_IR_Category_Patch</li>
+    <li>T-ExpandedCloth_IR_Category_Patch</li>
     <li>T-MoreBedsCloth</li>
+    <li>T-MoreBedsCloth_IR_Category_Patch</li>
     <li>[A11 Hairs] AnimuHair</li>
     <li>FishIndustry</li>
+    <li>FishIndustry_IR_Category_Patch</li>
     <li>LT_DoorMat</li>
+    <li>LT_DoorMat_IR_Category_Patch</li>
     <li>AutoEquip</li>
     <li>LT_Infusion</li>
     <li>AutoEquipInfusion</li>
     <li>LT_ADogSaid</li>
+    <li>LT_ADogSaid_IR_Category_Patch</li>
     <li>LT_ASA</li>
     <li>LT_RedistHeat</li>
+    <li>LT_RedistHeat_IR_Category_Patch</li>
     <li>LT_Soiling</li>
+    <li>LT_Soiling_IR_Category_Patches</li>
+    <li>Embrasures-Embrasures1.2</li>
+    <li>Embrasures-Embrasures1.2_IR_Category_Patch</li>
     <li>AutoHuntBeacon</li>
     <li>Hospitality</li>
   </activeMods>
