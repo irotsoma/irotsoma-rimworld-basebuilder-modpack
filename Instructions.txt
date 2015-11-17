@@ -1,9 +1,14 @@
-1. Install all mods on the mod list using the provided links.  Follow instructions given for installation of each.  Note that some mods are not simply unziped directly to the mod folder.
-2. Unzip all patch files in the Archives directory to the Mods folder in your rimworld installation, overwriting all files.
-3. Install the ModConfig.xml to the appropriate directory (make sure to back up the existing one first).  Instructions can be found on the forums if you are unfamiliar with where to find this file on your operating system.
+Please read in full before starting so you understand the uses of each patch and the options that you have.
+
+1. Open the file Modlist.html in your favorite web browser.
+2. Install all mods on the mod list using the provided links.  Follow instructions given for installation of each.  Note that some mods are not simply unziped directly to the mod folder.
+3. Unzip all patch files in the a12d Compatibilities Patches directory to the Mods folder in your rimworld installation, overwriting all files.  These are meant to fix any issues in the mods with compatibilies with Rimworld alpha 12d.
+4. Unzip the files in the OtherPatches folder folder directly to the mods folder, overwriting all files.  
+5. Install the ModConfig.xml to the appropriate directory (make sure to back up the existing one first).  Instructions can be found on the forums if you are unfamiliar with where to find this file on your operating system.
 
 Options:
-1. You can remove any mods that you would rather not use as long as you also remove any mods that depend on that mod as shown in the mod list document and any patch mods associated with those mods.
+1. You can remove any mods that you would rather not use as long as you also remove any mods that depend on that mod as shown in the mod list document and any patch mods associated with those mods.  The exception is Superior Crafting Resdesigned and Community Core Library.  These mods are required.  Note: also never remove the Core mod.
 2. The CategoryPatch is meant to recategorize all objects for the stockpile as well as some Architect menus to accomodate the large amount of entries in these menus due to the mods.  It consists of several mod patches.  The mod patch must always follow the mod it patches in the mod order.  These are optional patches (one for each mod that needs it) and you may choose to ignore one or more if you're ok with the categories that mod uses.  Just remove the patch mod(s) from the mod list in RimWorld.  Note: if you update one of the mods in this mod list to a newer version than the one listed in the mod list document, these patches may cause conflicts.  Please post a note on the forum thread for this mod list or PM me on the forums if this comes up and I'll look to fix that patch.  This is the reason for the many patches being separate, so you can continue to play with the other mods fixed even when one mod is updated.
 3. The IncompatibilitiesPatch is meant to fix information in mods that have incompatibilities.  These patch mods are only necessary if all of the mentioned mods are being used.  The IncompatibilitiesPatch mod should always follow ALL of the mentioned mods in the mod order.
+4. The RemoveProcessedResourcesPatch removes the concept of turning ore into ingots introduced in Superior Crafting.  This added too much complexity and time to build things, so I removed it for this mod list.  This is technically optional, but it may make things a little odd where some things require the ingots and others require the ore eventhough they locigally both need processed steel.
 
