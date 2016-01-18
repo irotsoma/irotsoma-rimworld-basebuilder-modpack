@@ -8,7 +8,7 @@
     <li>EdBInterface</li>
     <li>EdBPrepareCarefully</li>
     <li>Pawn State Icons</li>
-    <li>RW_EnhancedTabs-12d.5b</li>
+    <li>RW_EnhancedTabs-12d.5d</li>
     <li>RW_MedicalInfo-A12d_1b</li>
     <li>Superior Crafting Redesigned</li>
     <li>IR_DeclutterCategories</li>
@@ -39,15 +39,10 @@
     <li>Glass&amp;Lights</li>
     <li>Glass&amp;Lights_IR_Category_Patch</li>
     <li>Superior_Crafting_&amp;_Glass&amp;Lights_IR_Incompatibilities_Patch</li>
-    <li>EnviroSeeds_SK</li>
-    <li>Pleasure_Seeds</li>
-    <li>Pleasure_Seeds_IR_Category_Patch</li>
-    <li>Vegetable Garden v3.2a ESeeds</li>
-    <li>Vegetable Garden v3.2a ESeeds_IR_Category_Patch</li>
-    <li>GourmetGarden</li>
-    <li>GourmetGarden_IR_Category_Patch</li>
-    <li>EnviroSeeds_SK_&amp;_Biodiversity_IR_Incompatibilities_Patch</li>
-    <li>Vegetable Garden v3.2a ESeeds_IR_Incompatibilities_Patch</li>
+    <li>Vegetable Garden v3.4</li>
+    <li>Vegetable Garden v3.4 seeds</li>
+    <li>Vegetable Garden v3.4_IR_Category_Patch</li>
+    <li>Vegetable Garden v3.4_&amp;_Biodiversity_IR_Incompatibilities_Patch</li>
     <li>Apparello</li>
     <li>Apparello_IR_Category_Patch</li>
     <li>Extreme Temperature Shields</li>
@@ -56,8 +51,8 @@
     <li>PersonalShieldMKII_IR_Category_Patch</li>
     <li>Turret Collection</li>
     <li>Turret Collection_IR_Category_Patch</li>
-    <li>Additional Joy Objects V2.70</li>
-    <li>Additional Joy Objects V2.70_IR_Category_Patch</li>
+    <li>Additional Joy Objects v2.75</li>
+    <li>Additional Joy Objects V2.75_IR_Category_Patch</li>
     <li>CTS</li>
     <li>DefenceShield-DefenceShield1.3</li>
     <li>DefenceShield-DefenceShield1.3_IR_Category_Patch</li>
@@ -72,14 +67,14 @@
     <li>Better_Tribals</li>
     <li>MAI</li>
     <li>MAI_IR_Category_Patch</li>
-    <li>Miscellaneous_HiRes</li>
-    <li>Miscellaneous_HiRes_IR_Category_Patch</li>
+    <li>Miscellaneous</li>
+    <li>Miscellaneous_IR_Category_Patch</li>
     <li>PowerSwitch</li>
     <li>PowerSwitch_IR_Category_Patch</li>
     <li>RoofSupport</li>
     <li>T-MoreFloors</li>
-    <li>T-ExpandedCloth</li>
     <li>T-MoreFloors_IR_Category_Patch</li>
+    <li>T-ExpandedCloth</li>
     <li>T-ExpandedCloth_IR_Category_Patch</li>
     <li>T-MoreBedsCloth</li>
     <li>T-MoreBedsCloth_IR_Category_Patch</li>
@@ -102,5 +97,6 @@
     <li>Embrasures-Embrasures1.2_IR_Category_Patch</li>
     <li>AutoHuntBeacon</li>
     <li>Hospitality</li>
+    <li>Hospitality_IR_Category_Patch</li>
   </activeMods>
 </ModsConfigData>
