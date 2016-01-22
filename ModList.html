@@ -1,12 +1,42 @@
 <html>
 	<head>
+<style type="text/css">
+	#modlist {
+		border-collapse:collapse;
+		width: 100%;
+	}
+	
+	#modlist td, #modlist th {
+		border: 1px solid #ddd;
+		text-align: left;
+		padding: 8px;
+	}	
+	
+	#modlist tr:nth-child(even){
+		background-color: #f2f2f2;
+	}
+	
+	#modlist tr:hover {
+		background-color: #ddd;
+	}
+	
+	#modlist th {
+   	padding-top: 12px;
+   	padding-bottom: 12px;
+   	background-color: #4CAF50;
+   	color: white;
+	}
+	
+</style>	
+	
+	
 		<meta  content="text/html; charset=utf-8"  http-equiv="content-type"/>
-		<title>irotsoma's basebuilder rimworld modpack</title>
+		<title>irotsoma Modlist and Patches (iMP): Base Builder Edition</title>
 	</head>
 	<body>
-		<h2> irotsoma's basebuilder rimworld modpack </h2>
-		<h3> Mods to install in no particular order unless dependencies exist in which case this will be noted.  Core, Communitiy Core Library, and Superior Crafting Redesigned, should be loaded before all other mods that modify content.  Use the modconfig.xml for the order that has been tested. </h3>
-		<table>
+		<h2> irotsoma Modlist and Patches (iMP): Base Builder Edition </h2>
+		<h4> Mods to install in no particular order unless dependencies exist in which case this will be noted.  Core, Communitiy Core Library, and Superior Crafting Redesigned, should be loaded before all other mods that modify content.  Use the modconfig.xml for the order that has been tested. </h4>
+		<table id="modlist">
 			<tbody>
 				<tr style="text-align: left;">
 					<th> Name</th>
@@ -17,7 +47,7 @@
 					<th> Dependencies</th>
 				</tr>
 				<tr>
-					<td> Community Core Library (CCL)</td>
+					<td> Community Core Library [CCL] (vanilla tweaks mod is not needed as Superior Crafting implements most of it)</td>
 					<td> 0.12.4</td>
 					<td>
 						<a  href="https://ludeon.com/forums/index.php?topic=16599.0">Ludeon Forums </a>
@@ -26,6 +56,7 @@
 					<td>
 						<a  href="https://github.com/RimWorldCCLTeam/CommunityCoreLibrary/">Github</a>
 					</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> EdBModOrder</td>
@@ -34,6 +65,8 @@
 						<a  href="https://ludeon.com/forums/index.php?topic=7454.0">Ludeon Forums </a>
 					</td>
 					<td> EdB</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> EdBInterface</td>
@@ -42,6 +75,7 @@
 						<a  href="https://ludeon.com/forums/index.php?topic=5258.0">Ludeon Forums </a>
 					</td>
 					<td> EdB</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> EdBPrepareCarefully</td>
@@ -50,6 +84,8 @@
 						<a  href="https://ludeon.com/forums/index.php?topic=6261.0">Ludeon Forums </a>
 					</td>
 					<td> EdB</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> RW_EnhancedTabs-12d.5d</td>
@@ -59,87 +95,27 @@
 					</td>
 					<td> Fluffy (l2032) </td>
 					<td> Included</td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> AutoEquip</td>
-					<td> a12v013</td>
+					<td> RW_MedicalInfo</td>
+					<td> A12d_1b</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=16069.0">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=16120.msg171785#msg171785">Ludeon Forums </a>
 					</td>
-					<td> soulkatta</td>
-					<td>
-						<a  href="https://github.com/soulkata/rimworld">Github</a>
-					</td>
+					<td> Fluffy (l2032) </td>
+					<td> Included</td>
+					<td>CCL</td>
 				</tr>
 				<tr>
-					<td> LT_Infusion</td>
-					<td> 31b</td>
+					<td> Superior Crafting Redesigned</td>
+					<td> ?</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=12783.0">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=11741.msg178474#msg178474">Ludeon Forums </a>
 					</td>
-					<td> Latta</td>
-					<td>
-						<a  href="https://github.com/soulkata/rimworld">Github</a>
-					</td>
-					<td> CCL</td>
-				</tr>
-				<tr>
-					<td> AutoEquipInfusion</td>
-					<td> a12v013</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=16069.0">Ludeon Forums </a>
-					</td>
-					<td> soulkatta</td>
-					<td>
-						<a  href="https://github.com/soulkata/rimworld">Github</a>
-					</td>
-					<td> AutoEquip &amp; LT_Infusion </td>
-				</tr>
-				<tr>
-					<td> Vegetable Garden v3.4 (either with or without seeds version, but not both)</td>
-					<td> 3.4</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=12934.0">Ludeon Forums </a>
-					</td>
-					<td> dismar</td>
-				</tr>
-				<tr>
-					<td> Biodiversity</td>
-					<td> a12d patch</td>
-					<td>
-						<a "https://ludeon.com/forums/index.php?topic=9532.msg180257#msg180257">Ludeon Forums </a>
-					</td>
-					<td> Igabod/Haplo/irotsoma</td>
-				</tr>
-				<tr>
-					<td> Miscellaneous</td>
-					<td> 1.12.10</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=3612.0">Ludeon Forums </a>
-					</td>
-					<td> Haplo</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=3612.0">Ludeon Forums </a>
-					</td>
-				</tr>
-				<tr>
-					<td> MAI</td>
-					<td> 1.12.8</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=3612.0">Ludeon Forums </a>
-					</td>
-					<td> Haplo</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=3612.0">Ludeon Forums </a>
-					</td>
-				</tr>
-				<tr>
-					<td> BeanTekRefrigeratedFoodStorage</td>
-					<td> 1.2</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=12243.0">Ludeon Forums </a>
-					</td>
-					<td>beany_for_ever</td>
+					<td>Abrexus/dismar</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> Pawn State Icons</td>
@@ -149,32 +125,47 @@
 					</td>
 					<td>Sadler</td>
 					<td> Included</td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> RoofSupport</td>
-					<td> 0.8.3</td>
+					<td> Industrialization</td>
+					<td> A12</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=7458.0">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=8902.0">Ludeon Forums </a>
 					</td>
-					<td>Nommy</td>
-					<td> N/A</td>
+					<td>eatKenny</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> AutoHuntBeacon</td>
-					<td> 2.3.5641.16805</td>
+					<td> Biodiversity</td>
+					<td> a12d patch</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=8930.msg172964#msg172964">Ludeon Forums </a>
+						<a "https://ludeon.com/forums/index.php?topic=9532.msg180257#msg180257">Ludeon Forums </a>
 					</td>
-					<td>Carry/Anfi0312</td>
+					<td> Igabod/Haplo/irotsoma</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> Hospitality</td>
-					<td> 1.09c</td>
+					<td> RW_Cats</td>
+					<td> 12d.9c</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=11444.0">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=15457.0">Ludeon Forums </a>
 					</td>
-					<td>Orion</td>
+					<td> Fluffy (l2032) </td>
 					<td> Included</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> ExpandedProsthetics&amp;OrganEngineering</td>
+					<td> 1.52</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=10571.0">Ludeon Forums </a>
+					</td>
+					<td>Ykara</td>
+					<td> Included</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> Rimsenal</td>
@@ -184,6 +175,7 @@
 					</td>
 					<td>rooki1</td>
 					<td> Included</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> Rimsenal_Federation</td>
@@ -226,24 +218,6 @@
 					<td> Rimsenal</td>
 				</tr>
 				<tr>
-					<td> Better_Tribals</td>
-					<td> 2.00</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=14958.0">Ludeon Forums </a>
-					</td>
-					<td>The13thRonin</td>
-					<td> N/A</td>
-				</tr>
-				<tr>
-					<td> Apparello</td>
-					<td> 1.6.3</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=5085.0">Ludeon Forums </a>
-					</td>
-					<td>Shinzy</td>
-					<td> N/A</td>
-				</tr>
-				<tr>
 					<td> MD2Base</td>
 					<td> 23</td>
 					<td>
@@ -284,40 +258,44 @@
 					<td>CCL</td>
 				</tr>
 				<tr>
-					<td> RW_MedicalInfo</td>
-					<td> A12d_1b</td>
+					<td> Vegetable Garden v3.4 (either with or without seeds version, but not both)</td>
+					<td> 3.4</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=16120.msg171785#msg171785">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=12934.0">Ludeon Forums </a>
 					</td>
-					<td> Fluffy (l2032) </td>
-					<td> Included</td>
-					<td>CCL</td>
+					<td> dismar</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> RW_Cats</td>
-					<td> 12d.9c</td>
+					<td> Apparello</td>
+					<td> 1.6.3</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=15457.0">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=5085.0">Ludeon Forums </a>
 					</td>
-					<td> Fluffy (l2032) </td>
-					<td> Included</td>
+					<td>Shinzy</td>
+					<td> N/A</td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> EnhancedFireFight</td>
+					<td> Extreme Temperature Shields</td>
+					<td> 1.6</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=14702.0">Ludeon Forums </a>
+					</td>
+					<td>BangUDie</td>
+					<td> Included</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> PersonalShieldMKII</td>
 					<td> 1.2</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=11988.0">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=14135.0">Ludeon Forums </a>
 					</td>
-					<td> BBream</td>
+					<td>skullywag</td>
 					<td> Included</td>
-				</tr>
-				<tr>
-					<td> Industrialization</td>
-					<td> A12</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=8902.0">Ludeon Forums </a>
-					</td>
-					<td>eatKenny</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> TurretCollection</td>
@@ -326,24 +304,8 @@
 						<a  href="https://ludeon.com/forums/index.php?topic=6895.0">Ludeon Forums </a>
 					</td>
 					<td>eatKenny</td>
-				</tr>
-				<tr>
-					<td> ExpandedProsthetics&amp;OrganEngineering</td>
-					<td> 1.52</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=10571.0">Ludeon Forums </a>
-					</td>
-					<td>Ykara</td>
-					<td> Included</td>
-				</tr>
-				<tr>
-					<td> PowerSwitch</td>
-					<td> 1.12.2</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=2890.0">Ludeon Forums </a>
-					</td>
-					<td>Haplo</td>
-					<td> Included</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> AdditionalJoyObjects</td>
@@ -356,25 +318,6 @@
 					<td>CCL</td>
 				</tr>
 				<tr>
-					<td> Caveworld flora</td>
-					<td> 12.1</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=13172.msg133446#msg133446">Ludeon Forums </a>
-					</td>
-					<td>Rikiki</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=13172.msg133446#msg133446">Ludeon Forums </a>
-					</td>
-				</tr>
-				<tr>
-					<td> Superior Crafting Redesigned</td>
-					<td> ?</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=11741.msg178474#msg178474">Ludeon Forums </a>
-					</td>
-					<td>Abrexus/dismar</td>
-				</tr>
-				<tr>
 					<td> CTS</td>
 					<td> 1.1</td>
 					<td>
@@ -383,16 +326,7 @@
 					<td> kexici</td>
 					<td></td>
 					<td> Superior Crafting</td>
-				</tr>
-				<tr>
-					<td> Extreme Temperature Shields</td>
-					<td> 1.6</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=14702.0">Ludeon Forums </a>
-					</td>
-					<td>BangUDie</td>
-					<td> Included</td>
-				</tr>
+				</tr>	
 				<tr>
 					<td> DefenseShield</td>
 					<td> 1.3</td>
@@ -401,24 +335,17 @@
 					</td>
 					<td>skullywag</td>
 					<td> Included</td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> Embrasures</td>
+					<td> EnhancedFireFight</td>
 					<td> 1.2</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=14135.0">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=11988.0">Ludeon Forums </a>
 					</td>
-					<td>skullywag</td>
+					<td> BBream</td>
 					<td> Included</td>
-				</tr>
-				<tr>
-					<td> PersonalShieldMKII</td>
-					<td> 1.2</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=14135.0">Ludeon Forums </a>
-					</td>
-					<td>skullywag</td>
-					<td> Included</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> Clutter</td>
@@ -431,6 +358,118 @@
 					<td>CCL</td>
 				</tr>
 				<tr>
+					<td> Caveworld flora</td>
+					<td> 12.1</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=13172.msg133446#msg133446">Ludeon Forums </a>
+					</td>
+					<td>Rikiki</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=13172.msg133446#msg133446">Ludeon Forums </a>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> BeanTekRefrigeratedFoodStorage</td>
+					<td> 1.2</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=12243.0">Ludeon Forums </a>
+					</td>
+					<td>beany_for_ever</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> Better_Tribals</td>
+					<td> 2.00</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=14958.0">Ludeon Forums </a>
+					</td>
+					<td>The13thRonin</td>
+					<td> N/A</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> MAI</td>
+					<td> 1.12.8</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=3612.0">Ludeon Forums </a>
+					</td>
+					<td> Haplo</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=3612.0">Ludeon Forums </a>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> Miscellaneous</td>
+					<td> 1.12.10</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=3612.0">Ludeon Forums </a>
+					</td>
+					<td> Haplo</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=3612.0">Ludeon Forums </a>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> PowerSwitch</td>
+					<td> 1.12.2</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=2890.0">Ludeon Forums </a>
+					</td>
+					<td>Haplo</td>
+					<td> Included</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> RoofSupport</td>
+					<td> 0.8.3</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=7458.0">Ludeon Forums </a>
+					</td>
+					<td>Nommy</td>
+					<td> N/A</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> T-MoreFloors</td>
+					<td> 1.9.1</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
+					</td>
+					<td>Telkir</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> T-ExpandedCloth</td>
+					<td> 1.9.1</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
+					</td>
+					<td>Telkir</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> T-MoreBedsCloth</td>
+					<td> 1.9.1</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
+					</td>
+					<td>Telkir</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
+					</td>
+					<td>T-ExpandedCloth</td>
+				</tr>
+				<tr>
 					<td> AnimuHair</td>
 					<td> ?</td>
 					<td>
@@ -438,6 +477,19 @@
 					</td>
 					<td>Shinzy</td>
 					<td> N/A</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> FishIndustry</td>
+					<td> 12.0</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=13172.msg133445#msg133445">Ludeon Forums </a>
+					</td>
+					<td>Rikiki</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=13172.msg133445#msg133445">Ludeon Forums </a>
+					</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> LT_Doormat</td>
@@ -447,6 +499,52 @@
 					</td>
 					<td>Latta</td>
 					<td> N/A</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td> AutoEquip</td>
+					<td> a12v013</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=16069.0">Ludeon Forums </a>
+					</td>
+					<td> soulkatta</td>
+					<td>
+						<a  href="https://github.com/soulkata/rimworld">Github</a>
+					</td>
+				</tr>
+				<tr>
+					<td> LT_Infusion</td>
+					<td> 31b</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=12783.0">Ludeon Forums </a>
+					</td>
+					<td> Latta</td>
+					<td>
+						<a  href="https://github.com/soulkata/rimworld">Github</a>
+					</td>
+					<td> CCL</td>
+				</tr>
+				<tr>
+					<td> AutoEquipInfusion</td>
+					<td> a12v013</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=16069.0">Ludeon Forums </a>
+					</td>
+					<td> soulkatta</td>
+					<td>
+						<a  href="https://github.com/soulkata/rimworld">Github</a>
+					</td>
+					<td> AutoEquip &amp; LT_Infusion </td>
+				</tr>
+				<tr>
+					<td> LT_ADogSaid</td>
+					<td> 10a</td>
+					<td>
+						<a  href="https://ludeon.com/forums/index.php?topic=16000.0">Ludeon Forums </a>
+					</td>
+					<td>Latta</td>
+					<td> N/A</td>
+					<td>CCL</td>
 				</tr>
 				<tr>
 					<td> LT_ASA</td>
@@ -456,12 +554,13 @@
 					</td>
 					<td>Latta</td>
 					<td> N/A</td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> LT_ADogSaid</td>
-					<td> 10a</td>
+					<td> LT_RedistHeat</td>
+					<td> 42b</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=16000.0">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=11056.0">Ludeon Forums </a>
 					</td>
 					<td>Latta</td>
 					<td> N/A</td>
@@ -475,61 +574,37 @@
 					</td>
 					<td>Latta</td>
 					<td> N/A</td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> LT_RedistHeat</td>
-					<td> 42b</td>
+					<td> Embrasures</td>
+					<td> 1.2</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=11056.0">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=14135.0">Ludeon Forums </a>
 					</td>
-					<td>Latta</td>
-					<td> N/A</td>
-					<td>CCL</td>
+					<td>skullywag</td>
+					<td> Included</td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> FishIndustry</td>
-					<td> 12.0</td>
+					<td> AutoHuntBeacon</td>
+					<td> 2.3.5641.16805</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=13172.msg133445#msg133445">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=8930.msg172964#msg172964">Ludeon Forums </a>
 					</td>
-					<td>Rikiki</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=13172.msg133445#msg133445">Ludeon Forums </a>
-					</td>
+					<td>Carry/Anfi0312</td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
-					<td> T-MoreFloors</td>
-					<td> 1.9.1</td>
+					<td> Hospitality</td>
+					<td> 1.09c</td>
 					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
+						<a  href="https://ludeon.com/forums/index.php?topic=11444.0">Ludeon Forums </a>
 					</td>
-					<td>Telkir</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
-					</td>
-				</tr>
-				<tr>
-					<td> T-ExpandedCloth</td>
-					<td> 1.9.1</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
-					</td>
-					<td>Telkir</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
-					</td>
-				</tr>
-				<tr>
-					<td> T-MoreBedsCloth</td>
-					<td> 1.9.1</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
-					</td>
-					<td>Telkir</td>
-					<td>
-						<a  href="https://ludeon.com/forums/index.php?topic=4373.0">Ludeon Forums </a>
-					</td>
-					<td>T-ExpandedCloth</td>
+					<td>Orion</td>
+					<td> Included</td>
+					<td></td>
 				</tr>
 				<tr>
 					<td> Category Patches</td>
